@@ -16,7 +16,7 @@ char* createABC() {
 }
 char *abc = createABC();
 
-//search the chiperchar position and transform
+//search the chiperchar's position and transform
 char cipherCharRoman(char chiperchard,int shift){
     for(int i = 0; i < lim; i++){
         if(chiperchard != abc[i])continue;
